@@ -30,8 +30,11 @@ msg = "Olá, Mundo!"
 
 if current_language == "en_US":
     msg = "Hello, World!"
-if current_language == "it_IT":
+elif current_language == "it_IT":
     msg = "Ciao, Mondo!"
-if current_language == "fr_FR":
-    msg = "Bonjour, le monde!"    
+elif current_language == "fr_FR":
+    msg = "Bonjour, le monde!"  
+elif current_language == "es_SP":
+    msg = "Hola, Mundo!"
+       
 print(msg)
